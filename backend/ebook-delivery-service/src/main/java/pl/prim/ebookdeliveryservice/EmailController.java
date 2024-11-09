@@ -21,7 +21,7 @@ public class EmailController {
 
     @GetMapping("/send")
     public void sendEmail() throws MessagingException {
-        mailService.sendEmail("paw3@op.pl");
+        mailService.sendEmail("");
     }
 
 }

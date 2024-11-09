@@ -20,7 +20,7 @@ public class MailService {
         System.out.println("sending email....");
         MimeMessage message = javaMailSender.createMimeMessage();
         MimeMessageHelper helper = new MimeMessageHelper(message, true);
-        helper.setFrom("paw3@op.pl");
+        helper.setFrom("");
         helper.setTo(email);
         helper.setSubject("Twoj Ebook");
         helper.setText("Tutaj jest e book");
