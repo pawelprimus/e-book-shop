@@ -42,6 +42,10 @@ application-*.properties
 application.properties
 !application.template.properties
 
+application-*.yaml
+application.yaml
+!application.template.yaml
+
 # Logs
 logs/
 *.log
